@@ -61,10 +61,6 @@
 - **PowerShell**: 5.1 o superior
 - **Permisos**: Administrador
 - **Espacio**: ~50MB para backups
-- **Dependencias**: 
-  - `7z` (para parche de ISO)
-  - `xorriso` (para parche de ISO)
-
 ---
 
 ## 🚀 Instalación
