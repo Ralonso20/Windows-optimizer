@@ -65,25 +65,11 @@
 
 ## 🚀 Instalación
 
-### Método 1: Ejecución Directa (Recomendado)
-
-```powershell
+### Método: Bypass Temporal
 # Abrir PowerShell como Administrador
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
-.\Windows-Optimizer-Clean.ps1
-```
-
-### Método 2: Bypass Temporal
-
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\Windows-Optimizer-Clean.ps1
-```
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 
-### Método 3: Desbloquear Archivo
-
-```powershell
-Unblock-File -Path .\Windows-Optimizer-Clean.ps1
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\Windows-Optimizer-Clean.ps1
 ```
 
